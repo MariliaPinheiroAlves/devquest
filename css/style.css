@@ -1,0 +1,106 @@
+.container {
+    background-image: url(../images/background.jpg);
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.descricao {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: #fff;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.subtexto {
+    font-weight: 400;
+    font-size: 15px;
+    width: 300px;
+}
+
+.formulario {
+    margin-right: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes {
+    background-color: #fff;
+    width: 340px;
+    padding: 20px;
+}
+
+.texto-obrigatorio {
+    display: none;
+}
+
+.informacao {
+    width: 298px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.informacao.mensagem {
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.obrigatorio {
+    font-size: 15px;
+}
+
+.btn {
+    width: 298px;
+    height: 41px;
+    background-color: #3CCC87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.preenchido {
+    border: 1px solid #00C22B;
+}
+
+.nao-preenchido {
+    font-size: 8px;
+    margin-bottom: 5px;
+    color: #F52E2E;
+    display: block;
+}
+
+.borda-nao-preenchida {
+    width: 298px;
+    height: 36px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #F52E2E;
+}
+
+.borda-nao-preenchida.mensagem {
+    height: 100px;
+}

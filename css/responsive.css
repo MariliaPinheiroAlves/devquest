@@ -1,0 +1,26 @@
+@media (max-width: 714px) {
+    .container {
+        background-size: 100% 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descricao {
+        width: 80%;
+        margin: 30px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .formulario {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 715px) {
+    .container {
+        background-size: 100% 100%;
+    }
+}
